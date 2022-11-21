@@ -160,3 +160,85 @@ body{
 .price-1:first-child{
     opacity: .5;
 }
+
+.second-part{
+    border-bottom: 1px solid gray;
+}
+
+
+.details{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    
+}
+
+.color-picker{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.color{
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.color img{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    margin-top: -1px;
+    opacity: 0;
+}
+
+.color img.selected{
+    opacity: 1;
+}
+
+.color:nth-child(1){
+    background-color: blue;
+}
+
+.color:nth-child(2){
+    background-color: green;
+}
+
+.color:nth-child(3){
+    background-color: teal;
+}
+
+.color:nth-child(3){
+    background-color: rgb(125, 125, 255);
+}
+
+.select-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.arrow img{
+    height: 10px;
+    width:auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.select-option-num{
+    margin-top: -1px;
+    padding: 5px 25px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
